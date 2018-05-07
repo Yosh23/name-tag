@@ -1,0 +1,49 @@
+
+#container {
+    height:50em;
+    width:100%;
+    background-color: #b6fcd5;
+}
+#hmni-container {
+    padding-top: 7em;
+    width: 32em;
+    margin: auto;
+}
+#hmni-border {
+    height: 22em;
+}
+#hmni-background {
+    background-color: #1E90FF;
+    height: 100%;
+    width: 100%;
+    border-radius: 1em;
+}
+#hmni-upper-text-div {
+    height: 6em;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-bottom: 1em;
+}
+#hmni-upper-big {
+    padding-top: 8px;
+    font-size: 3em;
+    letter-spacing:.2em;
+    font-weight: bold;
+}
+#hmni-upper-small {
+    font-size: 2em;
+    font-weight: lighter;
+}
+#hmni-text {
+    height: 12em;
+    width:100%;
+    background-color: white;
+}
+#hmni-name {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 4em;
+    font-weight: bold;
+    color: red;
+}
