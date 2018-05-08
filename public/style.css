@@ -1,49 +1,83 @@
 
-#container {
+.container {
     height:50em;
     width:100%;
-    background-color: #b6fcd5;
+    background-color: #494949;
 }
-#hmni-container {
+.hmni-container {
     padding-top: 7em;
     width: 32em;
     margin: auto;
 }
-#hmni-border {
+.hmni-border {
     height: 22em;
 }
-#hmni-background {
-    background-color: #1E90FF;
+
+.hmni-background {
+    background-color: red;
     height: 100%;
     width: 100%;
     border-radius: 1em;
 }
-#hmni-upper-text-div {
+.hmni-upper-text-div {
     height: 6em;
     width: 100%;
     text-align: center;
     color: white;
     padding-bottom: 1em;
 }
-#hmni-upper-big {
+.hmni-upper-big {
     padding-top: 8px;
     font-size: 3em;
     letter-spacing:.2em;
     font-weight: bold;
 }
-#hmni-upper-small {
+.hmni-upper-small {
     font-size: 2em;
     font-weight: lighter;
 }
-#hmni-text {
+.hmni-text {
     height: 12em;
     width:100%;
     background-color: white;
 }
-#hmni-name {
+.hmni-name {
     text-align: center;
     padding-top: 1em;
     font-size: 4em;
     font-weight: bold;
-    color: red;
+    color: black;
+}
+
+
+.flex-container {
+    border: 1px;
+    border-style: solid;
+    width: 30em;
+    display: inline-flex;
+    justify-content: center;
+    background-color: red;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.flex-item-1 {
+    height: 5em;
+    text-align: center;
+    color: white;
+}
+
+.flex-item-1 h1 {
+    margin: 0em;
+}
+
+.flex-item-1 h4 {
+    margin: 0.6em;
+}
+
+.flex-item-2 {
+    border-style: solid;
+    border: 1px;
+    text-align: center;
+    background-color: white;
 }
